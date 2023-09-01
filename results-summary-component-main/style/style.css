@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+@font-face {
+    font-family: 'Hanken Grotesk';
+    src: url('../assets/fonts/HankenGrotesk-VariableFont_wght.ttf') format('truetype');
+}
+
+body {
+    width: 1440px;
+    background-color: hsl(221, 100%, 96%);
+    font-size: 18px;
+    font-family: 'Hanken Grotesk';
+}
+
+
+.container {
+    width: 45%;
+    height: 450px;
+    margin: 100px auto;
+    display: flex;
+    box-shadow: 20px 20px 20px hsla(0, 0%, 15%, 0.1);
+    border-radius: 20px;
+}
+
+.result {
+    width: 50%;
+    background-image: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    padding: 20px 10px;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: center;
+    border-radius: 30px;
+}
+
+.result > .item {
+    min-width: 60%;
+}
+
+.item > p {
+    width: 80%;
+}
+
+.pontuation {
+    background-image: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    width: 50%;
+    height: 45%;
+    border-radius: 50%;
+}
+
+.pontuation p {
+    position: relative;
+    top: 25%;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+#result-number {
+    font-size: 55px;
+    font-weight: 800;
+    color: white;
+}
+
+.result-compliment {
+    font-size: 28px;
+    font-weight: 700;
+    margin: auto;
+}
+
+
+.summary-container {
+    width: 50%;
+    padding: 20px 10px;
+}
+
+.summary-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+}
+
+.summary-list {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.summary-list .item {
+    min-width: 90%;
+    height: 20%;
+    padding: 10px 0px;
+    border-radius: 10px;
+    display: flex;
+    align-items: baseline;
+}
+
+.icon {
+    vertical-align: middle;
+}
+
+.reaction {
+    color: hsl(0, 100%, 67%);
+    background-color: hsl(0, 100%, 67%, 0.1);
+}
+
+.memory {
+    color: hsl(39, 100%, 56%);
+    background-color: hsl(39, 100%, 56%, 0.1);
+}
+
+.verbal {
+    color: hsl(166, 100%, 37%);
+    background-color: hsl(166, 100%, 37%, 0.1);
+}
+
+.visual {
+    color: hsl(234, 85%, 45%);
+    background-color: hsl(234, 85%, 45%, 0.1);
+}
+
+.card-pontuation {
+    color: black;
+    font-weight: 600;
+}
+
+.out-of {
+    color: rgba(0, 0, 0, 0.3);
+}
+
+#title {
+    width: 90%;
+    font-weight: 700;
+}
+
+.continue-btn {
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    width: 90%;
+    background-color: #303B59;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: 600;
+}
